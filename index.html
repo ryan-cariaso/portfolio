@@ -68,17 +68,23 @@
         <main class="container work">
           <div class="section-heading">Work</div>
           <div class="w-layout-grid work-grid">
-            <div class="divider-line btm-64"></div>
+            <div id="w-node-1" class="divider-line btm-64"></div>
             <div id="gridcomp" class="grid-wrapper work">
-              <div class="content-wrapper">
-                <img
-                  class="video w-background-video"
-                  src="img/joyyou.gif"
-                  alt="joyyou example"
-                />
+              <div class="project-content w-show-er">
+                <div class="w-mask">
+                  <div class="slide w-show">
+                    <div class="content-wrapper">
+                      <div class="video w-background-video w-background-video-atom">
+                        <video autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover">
+                          <source src="img/vids/joyyou.mov" data-wf-ignore="true"> 
+                        </video>
+                      </div>
+                  </div>
+                </div>
+                </div>
               </div>
             </div>
-            <div class="grid-wrapper desc flex-vertical">
+            <div id="w-node-2" class="grid-wrapper desc flex-vertical">
               <a
                 href="https://joyyou.netlify.app/"
                 class="site-link w-inline-block"
@@ -101,7 +107,7 @@
                 joyyou is a personal brand website to promote
               </p>
               <div class="flex-wrapper">
-                <div class="smallcaps pill">WEB DEVELOPMENT</div>
+                <div class="smallcaps pill">web development</div>
               </div>
             </div>
           </div>
