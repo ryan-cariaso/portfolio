@@ -36,3 +36,62 @@ body {
 main, nav, section {
 	display: block;
 }
+
+
+/* NAV BAR STYLING */
+
+
+.container.btm-mar-128 {
+	margin-bottom: 8rem;
+}
+
+.container {
+	position: relative;
+	max-width: 90rem;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 4rem;
+	padding-left: 4rem;
+}
+
+.nav-wrapper {
+	display: -ms-grid;
+	display: grid;
+	height: 4rem;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 2rem;
+	grid-row-gap: 0rem;
+	-ms-grid-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-wrapper.flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.grid-wrapper {
+	height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-item {
+	-webkit-transition: color .2s;
+	transition: color .2s;
+	color: #f4f4f4;
+	text-transform: capitalize;
+}
+
+a {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	background-color: transparent;
+	text-decoration: none;
+}
