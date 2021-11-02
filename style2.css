@@ -21,14 +21,22 @@ body {
   letter-spacing: -0.031rem;
 }
 
+main,
+nav,
+section {
+  display: block;
+}
+
 /* NAV BAR STYLING */
 
-.nav-margin {
+.nav-margin,
+.hero-margins {
   margin-bottom: 8rem;
 }
 
 .container {
   position: relative;
+  max-width: 90rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: 4rem;
@@ -39,10 +47,10 @@ body {
   display: grid;
   height: 4rem;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
   row-gap: 0rem;
   column-gap: 0rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .grid-wrapper.flex {
@@ -51,6 +59,7 @@ body {
 
 .grid-wrapper {
   height: 100%;
+  -webkit-box-align: center;
   align-items: center;
 }
 
@@ -58,6 +67,11 @@ body {
   color: #0d1321;
   text-decoration: none;
   cursor: pointer;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .nav-logo {
@@ -75,12 +89,7 @@ body {
   line-height: 5.625rem;
 }
 
-.hero-margins {
-  margin-top: 4rem;
-  padding-bottom: 5rem;
-}
-
-.about-margin {
+.container.about-margin {
   padding-bottom: 5rem;
 }
 
@@ -112,6 +121,7 @@ body {
 
 .grid-wrapper.flex-btm {
   display: flex;
+  -webkit-box-align: end;
   align-items: flex-end;
 }
 
@@ -156,13 +166,7 @@ img {
   max-width: 100%;
 }
 
-.mask {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
+/* SELECT WORK */
 
 footer,
 header,
@@ -171,4 +175,23 @@ menu,
 nav,
 section {
   display: block;
+}
+
+.container.work-padding {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.large-paragraph {
+  font-size: 2.624rem;
+  line-height: 3.25rem;
 }
