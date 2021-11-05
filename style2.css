@@ -296,6 +296,8 @@ video {
   color: #0d1321;
 }
 
+/* CONTACT SECTION */
+
 .contact {
   background-color: #f0ebd8;
   margin-top: 5%;
@@ -331,6 +333,8 @@ video {
   margin-top: 2rem;
 }
 
+/* FOOTER */
+
 .footer {
   position: relative;
   left: 0;
@@ -362,4 +366,52 @@ video {
 .footer-text {
   margin-bottom: 0.25rem;
   letter-spacing: 0;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 1389px) {
+  .project-title {
+    font-size: 4rem;
+    margin-left: 2%;
+  }
+
+  .project-description {
+    font-size: 1.2rem;
+    margin-left: 2%;
+  }
+
+  .pill,
+  .pill1 {
+    font-size: 0.8rem;
+  }
+
+  .project-info {
+    margin-top: 40%;
+  }
+
+  video {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1307px) {
+  .project-title {
+    font-size: 3rem;
+    margin-left: 0;
+  }
+
+  .project-description {
+    font-size: 1.1rem;
+    margin-left: 0;
+  }
+
+  .pill,
+  .pill1 {
+    font-size: 0.7rem;
+  }
+
+  .project-info {
+    margin-top: 50%;
+  }
 }
