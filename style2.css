@@ -415,3 +415,13 @@ video {
     margin-top: 50%;
   }
 }
+
+@media screen and (max-width: 1070px) {
+  .project-info {
+    margin-top: 0rem;
+  }
+
+  .project-video {
+    margin-bottom: 0rem;
+  }
+}
