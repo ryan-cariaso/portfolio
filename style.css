@@ -461,8 +461,9 @@ video {
   }
 
   .project-description {
-    margin-top: 2rem;
-    font-size: 1.5rem;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    font-weight: 300;
   }
 
   .pill.project-description {
