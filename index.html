@@ -20,14 +20,17 @@
             <div class="grid-wrapper flex">
               <a href="#" class="nav-item nav-logo">Ryan Cariaso</a>
             </div>
-            <div class="grid-wrapper flex">
-              <a href="#select-work" id="select-work-margin" class="nav-item"
-                >Select Work</a
+            <div class="grid-wrapper flex-right">
+              <a href="#select-work" id="portfolio-margin" class="nav-item"
+                >Portfolio</a
               >
-              <a href="#contact" class="nav-item">Contact</a>
+              <a href="#contact" id="contact-margin" class="nav-item"
+                >Contact</a
+              >
             </div>
           </nav>
         </div>
+        <!-- ABOUT ME -->
         <div class="container hero-margins">
           <div class="hero-text">
             Ambitious new face to the field of Web Development with an emphasis
@@ -35,29 +38,31 @@
           </div>
         </div>
         <div class="container about-margin">
-          <div class="w-layout-grid _2-col-grid">
-            <div id="grid-about" class="grid-wrapper flex-btm">
-              <div class="w-layout-grid _2-col-grid max-width">
-                <div class="grid-wrapper">
+          <div class="about-flexrow">
+            <div class="about-flexcolumn">
+              <div class="about-flexrow">
+                <div id="about-contact" class="grid-wrapper">
                   <div class="divider-line about-divider"></div>
                   <div class="smallcaps">contact</div>
                   <div class="email">cariaso.ryan@gmail.com</div>
                 </div>
-                <div class="grid-wrapper">
+                <div id="about-location" class="grid-wrapper">
                   <div class="divider-line about-divider"></div>
                   <div class="smallcaps">location</div>
                   <div class="location">Seattle, Washington</div>
                 </div>
               </div>
             </div>
-            <div id="grid-img" class="grid-wrapper">
-              <div class="img-wrapper">
-                <img
-                  src="img/linkedin pic - Copy.png"
-                  sizes="(max-width: 29.938rem) 92vw, (max-width: 47.938rem) 95vw, (max-width: 61.938rem) 92vw, 91vw"
-                  alt
-                  class="img"
-                />
+            <div class="about-flexcolumn">
+              <div id="grid-img" class="grid-wrapper">
+                <div class="img-wrapper">
+                  <img
+                    src="img/linkedin pic - Copy.png"
+                    sizes="(max-width: 29.938rem) 92vw, (max-width: 47.938rem) 95vw, (max-width: 61.938rem) 92vw, 91vw"
+                    alt
+                    class="img"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -66,12 +71,14 @@
       <section class="section">
         <div class="container work-padding">
           <p class="large-paragraph max-width-1200">
-            Here I would put a paragraph describing who I am other than just my
-            projects. Some things I can add are like my hobbies or why I made
-            the change? idk what to say tbh just yet but i'll figure it out lol
+            Hello! Ryan here. Born and raised in Long Island, graduated in
+            Queens, and now residing in Seattle! Began in Software Development,
+            but found my passion in Front-End Web Development and focusing on
+            customer needs and user experience.
           </p>
         </div>
       </section>
+      <!-- SELECT WORK -->
       <section class="section">
         <main id="select-work" class="container work-title-margin">
           <div class="section-heading">Portfolio</div>
@@ -146,8 +153,12 @@
                     </div>
                   </a>
                   <div class="project-description">
-                    "This will be the description for the ztylez website which i
-                    can find in upwork or something"
+                    Developed and designed brand website fro Ztylez
+                    Studio-Barbershop in Queens, NY. Responsive design with
+                    efficiency in mind, single page layout, smooth and minimal
+                    aesthetics with call to action landing page. Implementation
+                    of dynamic design and quality of life features using
+                    JavaScript and CSS.
                   </div>
                   <div class="pill project-description">web development</div>
                   <div class="pill1 project-description">web design</div>
@@ -256,6 +267,7 @@
               cariaso.ryan@gmail.com
             </div>
           </div>
+          <!-- FOOTER -->
           <footer class="footer">
             <div class="divider-line-footer"></div>
             <div class="footer-text">© Ryan Cariaso</div>
